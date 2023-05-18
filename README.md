@@ -19,7 +19,7 @@ This resume showcases my skills, experience, and qualifications. It provides an 
 
 ## Installation
 
-To access my resume, you can simply download the PDF file or click the following link to view it online: [Resume PDF](assets/doc/sedeq-yaqobi-resume-LS.pdf).
+To access my resume, you can simply download the PDF file or click the following link to view it online: [Resume PDF](assets/doc/sedeq-yaqobi-resume-HS.pdf).
 
 ## Usage
 
