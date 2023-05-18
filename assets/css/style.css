@@ -20,6 +20,7 @@ body {
 a {
   color: #4a5e69;
   text-decoration: none;
+  font-style:normal;
   transition: all 0.3s;
 }
 a:hover {
@@ -98,7 +99,6 @@ a:hover {
   list-style-position: inside;
   padding: 0 0 0 20px;
   border-left: dotted #4a5e69 3px;
-  border-bottom-left-radius: 10px;
 }
 .skills-container li {
   font-size: 16px;
@@ -122,20 +122,23 @@ a:hover {
 }
 .name-container {
   display: inline-flex;
+  width: calc(100%-40px);
   flex-direction: column;
   align-items: center;
   border-bottom: #4a5e69 dotted 3px;
-  margin: 50px 0 40px 0;
+  margin: 80px 0 60px 0;
 }
 .name-title {
   font-family: AsapCondensed;
   font-size: 70px;
+  letter-spacing: 7px;
   text-transform: capitalize;
   margin-bottom: 10px;
 }
 .name-subtitle {
+    
   text-transform: uppercase;
-  letter-spacing: 7px;
+  letter-spacing: 12px;
   font-size: 23px;
   color: #4a5e69;
 }
@@ -153,34 +156,37 @@ a:hover {
 }
 /* experience-items */
 .experience-items {
+    font-size: 14px;
   padding-left: 20px;
+  line-height: 32px;
+  text-align: justify;
 }
 
 /* QRcode */
-.main-footer{
-    width:calc(100% - 40px);
-    height:130px ;
-    margin: 30px 0 0 40px;
-    background-color: #4a5e69;
-    color:#C3C8C4 ;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+.main-footer {
+  width: calc(100% - 40px);
+  height: 130px;
+  margin: 50px 0 0 40px;
+  background-color: #4a5e69;
+  color: #c3c8c4;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
-.QRcode-box{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 30px 20px 20px;
+.QRcode-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px 20px 20px;
 }
-.QRcode-img{
-    width: 100px;
-    height: 100px;
-    margin-right: 20px;
+.QRcode-img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
 }
-.QRcode-text{
-    font-weight: 500;
-    font-size: 20px;
-    text-align: justify;
+.QRcode-text {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: justify;
 }
