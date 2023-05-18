@@ -18,21 +18,22 @@ body {
   font-family: blinker, monospace;
 }
 a {
-    color:#4A5E69;
-    text-decoration: none;
-    transition: all 0.3s;
+  color: #4a5e69;
+  text-decoration: none;
+  transition: all 0.3s;
 }
 a:hover {
-    color: #292929;
+  color: #292929;
 }
 .container {
+  display: flex;
   width: 794px; /* Approximate width for A4 (assuming 96 pixels per inch) */
   height: 1123px; /* Approximate height for A4 (assuming 96 pixels per inch) */
   background-color: #d7f2ff;
   margin: auto;
 }
 .sidebar {
-  width: 300px;
+  width: 280px;
   height: 1123px;
 }
 
@@ -61,7 +62,7 @@ a:hover {
 .contact {
   margin: 50px 0 30px 50px;
   line-height: 35px;
-  font-size: 18px;
+  font-size: 16px;
 }
 .contact ul {
   list-style: none;
@@ -84,18 +85,19 @@ a:hover {
   letter-spacing: 8px;
   text-transform: uppercase;
 }
-.subtitle{
-    margin-bottom: 8px; 
-    letter-spacing: .5px;
-    text-transform: capitalize; 
+.subtitle {
+  letter-spacing: 0.2px;
+  font-size: 15px;
+  text-transform: capitalize;
 }
-.text{
-    line-height: 35px;
+.text {
+  line-height: 32px;
+  text-align: justify;
 }
 .skills-container ul {
   list-style-position: inside;
   padding: 0 0 0 20px;
-  border-left: dotted #4A5E69 3px  ;
+  border-left: dotted #4a5e69 3px;
   border-bottom-left-radius: 10px;
 }
 .skills-container li {
@@ -104,6 +106,81 @@ a:hover {
   padding: 0;
 }
 /* education */
-.education{
-    margin:50px 0 30px 50px;
+.education {
+  margin: 50px 0 30px 50px;
+}
+.education p {
+  line-height: 35px;
+}
+/* main header */
+.main {
+  width: calc(100% - 280px);
+}
+.main-header {
+  width: 100%;
+  text-align: center;
+}
+.name-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: #4a5e69 dotted 3px;
+  margin: 50px 0 40px 0;
+}
+.name-title {
+  font-family: AsapCondensed;
+  font-size: 70px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.name-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-size: 23px;
+  color: #4a5e69;
+}
+/* main-body */
+.main-body {
+  padding: 0 40px 0 40px;
+}
+/* experience-title  */
+.experience-title {
+  margin: 20px 0 14px 0;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+/* experience-items */
+.experience-items {
+  padding-left: 20px;
+}
+
+/* QRcode */
+.main-footer{
+    width:calc(100% - 40px);
+    height:130px ;
+    margin: 30px 0 0 40px;
+    background-color: #4a5e69;
+    color:#C3C8C4 ;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.QRcode-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px 20px 20px;
+}
+.QRcode-img{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+.QRcode-text{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: justify;
 }
