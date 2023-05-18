@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* added external fonts */
+@font-face {
+  font-family: "blinker";
+  src: url(../fonts/Blinker-Regular.woff) format(woff);
+}
+@font-face {
+  font-family: "AsapCondensed";
+  src: url(../fonts/AsapCondensed-Regular.woff) format(woff);
+}
+
+body {
+  color: #292929;
+  font-family: blinker, monospace;
+}
+a {
+    color:#4A5E69;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+a:hover {
+    color: #292929;
+}
+.container {
+  width: 794px; /* Approximate width for A4 (assuming 96 pixels per inch) */
+  height: 1123px; /* Approximate height for A4 (assuming 96 pixels per inch) */
+  background-color: #d7f2ff;
+  margin: auto;
+}
+.sidebar {
+  width: 300px;
+  height: 1123px;
+}
+
+.profile-img-cont {
+  position: relative;
+  width: 170px;
+  height: 300px;
+  background-color: #ffffff;
+  margin: auto;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+.profile-img-box {
+  position: absolute;
+  bottom: 0;
+  width: 170px;
+  height: 220px;
+  background-image: url(../images/sadeq-yaqobi.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+/* contact */
+.contact {
+  margin: 50px 0 30px 50px;
+  line-height: 35px;
+  font-size: 18px;
+}
+.contact ul {
+  list-style: none;
+}
+.contact i {
+  margin-right: 10px;
+}
+/* skills */
+.skills-container {
+  background-color: #ffffff;
+  padding: 30px 0 30px 50px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  line-height: 30px;
+}
+.title {
+  margin-bottom: 14px;
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.subtitle{
+    margin-bottom: 8px; 
+    letter-spacing: .5px;
+    text-transform: capitalize; 
+}
+.text{
+    line-height: 35px;
+}
+.skills-container ul {
+  list-style-position: inside;
+  padding: 0 0 0 20px;
+  border-left: dotted #4A5E69 3px  ;
+  border-bottom-left-radius: 10px;
+}
+.skills-container li {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0;
+}
+/* education */
+.education{
+    margin:50px 0 30px 50px;
+}
