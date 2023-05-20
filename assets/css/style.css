@@ -30,9 +30,9 @@ a:hover {
 .container {
   display: flex;
   width: 794px; /* Approximate width for A4 (assuming 96 pixels per inch) */
-  min-height: 1123px; /* Approximate height for A4 (assuming 96 pixels per inch) */
+  height: 1123px; /* Approximate height for A4 (assuming 96 pixels per inch) */
   background-color: #d7f2ff;
-  margin: auto;
+  margin: auto ;
 }
 .sidebar {
   width: 280px;
@@ -197,7 +197,7 @@ a:hover {
   font-size: 20px;
   text-align: justify;
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .container{
      min-width: 100%;
      min-height: 100%;
@@ -206,4 +206,5 @@ a:hover {
     font-size: 14px;
     line-height: 25px;
   }
+  
 }
