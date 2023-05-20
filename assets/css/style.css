@@ -197,11 +197,9 @@ a:hover {
   font-size: 20px;
   text-align: justify;
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .container{
-     min-width: 100%;
+     min-width: 100vw!important;
      min-height: 100vh!important;
   }
- 
-  
 }
