@@ -2,10 +2,9 @@
 
 This repository contains my professional resume.
 
-<div align="center">
-  <img src="assets/images/sedeq-yaqobi-resume.png" alt="Image Description">
-</div>
+## Website
 
+Check out my resume website [here](https://sadeq-yaqobi.github.io/resume/).
 ## Description
 
 This resume showcases my skills, experience, and qualifications. It provides an overview of my education, work history, projects, and relevant skills.
@@ -17,9 +16,6 @@ This resume showcases my skills, experience, and qualifications. It provides an 
 - [License](#license)
 - [Contact](#contact)
 
-## Installation
-
-To access my resume, you can simply download the PDF file or click the following link to view it online: [Resume PDF](assets/doc/sedeq-yaqobi-resume-HS.pdf).
 
 ## Usage
 
@@ -33,6 +29,5 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 If you have any questions or would like to get in touch, you can reach me at:
 
-- Email: sadeq.yaqobi9219@gmail.com
 - LinkedIn: [Sadeq Yaqobi](https://www.linkedin.com/in/sadeq-yaqobi)
 - GitHub: [sadeq-yaqobi](https://github.com/sadeq-yaqobi)
