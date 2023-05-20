@@ -34,6 +34,7 @@ a:hover {
   min-height: 1123px; /* Approximate height for A4 (assuming 96 pixels per inch) */
   background-color: #d7f2ff;
   margin: auto;
+  padding-bottom: 10px;
 }
 .sidebar {
   width: 280px;
