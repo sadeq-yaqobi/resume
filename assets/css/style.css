@@ -16,13 +16,12 @@
 body {
   color: #292929;
   /* font-family: blinker, monospace; */
-  font-family:  Calibri, 'Trebuchet MS', sans-serif;
-
+  font-family: Calibri, "Trebuchet MS", sans-serif;
 }
 a {
   color: #4a5e69;
   text-decoration: none;
-  font-style:normal;
+  font-style: normal;
   transition: all 0.3s;
 }
 a:hover {
@@ -139,7 +138,6 @@ a:hover {
   margin-bottom: 10px;
 }
 .name-subtitle {
-    
   text-transform: uppercase;
   letter-spacing: 12px;
   font-size: 23px;
@@ -159,22 +157,23 @@ a:hover {
 }
 /* experience-items */
 .experience-items {
-    font-size: 14px;
+  font-size: 14px;
   padding-left: 20px;
   line-height: 32px;
   text-align: justify;
 }
-.link-project{
+.link-project {
   font-style: italic;
 }
 
 /* QRcode */
 .main-footer {
   position: absolute;
-right: 0;
-bottom: 20px;
+  right: 0;
+  bottom: 20px;
   width: calc(100% - 40px);
   height: 130px;
+  margin-top: 15px;
   background-color: #4a5e69;
   color: #c3c8c4;
   border-top-left-radius: 30px;
@@ -197,12 +196,4 @@ bottom: 20px;
   font-weight: 500;
   font-size: 20px;
   text-align: justify;
-}
-
-@media (max-width: 768px) {
-  .container {
-    min-width: 100%;
-    min-height: 100%; 
-    margin: auto;
-  }
 }
