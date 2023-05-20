@@ -15,7 +15,9 @@
 
 body {
   color: #292929;
-  font-family: blinker, monospace;
+  /* font-family: blinker, monospace; */
+  font-family:  Calibri, 'Trebuchet MS', sans-serif;
+
 }
 a {
   color: #4a5e69;
