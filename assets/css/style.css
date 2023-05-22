@@ -208,4 +208,7 @@ a:hover {
   .education {
     margin: 25px 0 30px 50px;
   }
+  .main-body {
+  padding: 0 30px 0 30px;
+}
 }
