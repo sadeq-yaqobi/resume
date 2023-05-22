@@ -14,6 +14,7 @@
 }
 
 body {
+  font-size: 16px;
   color: #292929;
   /* font-family: blinker, monospace; */
   font-family: Calibri, "Trebuchet MS", sans-serif;
@@ -95,6 +96,7 @@ a:hover {
 .text {
   line-height: 32px;
   text-align: justify;
+  text-justify: auto;
 }
 .skills-container ul {
   list-style-position: inside;
@@ -150,7 +152,7 @@ a:hover {
 /* experience-title  */
 .experience-title {
   margin: 20px 0 14px 0;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 800;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -161,6 +163,7 @@ a:hover {
   padding-left: 20px;
   line-height: 32px;
   text-align: justify;
+  text-justify: inter-word;
 }
 .link-project {
   font-style: italic;
