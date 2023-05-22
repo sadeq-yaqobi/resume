@@ -18,6 +18,7 @@ body {
   color: #292929;
   /* font-family: blinker, monospace; */
   font-family: Calibri, "Trebuchet MS", sans-serif;
+  overflow: auto;
 }
 a {
   color: #4a5e69;
@@ -150,6 +151,10 @@ a:hover {
   padding: 0 40px 0 40px;
 }
 /* experience-title  */
+.experience{
+  z-index: 2;
+  margin-bottom: 10px;
+}
 .experience-title {
   margin: 20px 0 14px 0;
   font-size: 22px;
@@ -201,6 +206,9 @@ a:hover {
   text-align: justify;
 }
 @media (max-width: 576px) {
+  body{
+    font-size: 15px;
+  }
   .container{
      min-width: 100vw!important;
      min-height: 100vh!important;
